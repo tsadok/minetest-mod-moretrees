@@ -147,10 +147,10 @@ moretrees.palm_model={
 -- So, a generic fruit trunk is spawned. An ABM will convert it to a male
 -- or female fruit trunk, and generate the actual dates.
 moretrees.date_palm_model={
-	axiom="TTTTddddddddddccccccccccRT[TGGGGT]"..
+	axiom="TTTddddddddccccccccccRT[TFFFFT]"..
 		"ccccc[&&a]ccccc[&&a]ccccc[&&a]ccccc[&&a]ccccc[&&a]ccccc[&&a]"..
-		"GGccccc[&a]ccccc[&a]ccccc[&a]ccccc[&a]ccccc[&a]ccccc[&a]"..
-		"GGccccc[a]ccccc[a]ccccc[a]ccccc[a]ccccc[a]ccccc[a]",
+		"Tdccccc[&a]ccccc[&a]ccccc[&a]ccccc[&a]ccccc[&a]ccccc[&a]"..
+		"Tdccccc[a]ccccc[a]ccccc[a]ccccc[a]ccccc[a]ccccc[a]",
 	rules_a="Gffb&bbb[++f--&ffff&ff][--f++&ffff&ff]&ff&ff&bb&bb&bb",
 	rules_b="f",
 	rules_c="/",
